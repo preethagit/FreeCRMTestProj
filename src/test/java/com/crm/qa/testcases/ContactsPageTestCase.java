@@ -51,11 +51,9 @@ public class ContactsPageTestCase extends TestBase{
 	@Test(priority=3)
 	public void selectMultipleContactsByNameTestCase()
 	{
-		contactsPage.enterName("Aashik");
+		contactsPage.enterName("Aash%");
 		contactsPage.clickSearch();
 		contactsPage.selectContactByName("Aashik rajput");
-		contactsPage.enterName("Aashiq");
-		contactsPage.clickSearch();		
 		contactsPage.selectContactByName("Aashiq Limbu");
 	    
 	}

@@ -48,7 +48,7 @@ public class ContactsPage extends TestBase{
 	
 	public void clickSearch()
 	{
-		searchButton.click();
+		searchButton.submit();
 		
 	}
 	
