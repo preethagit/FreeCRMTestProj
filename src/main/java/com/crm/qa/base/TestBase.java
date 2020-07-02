@@ -58,6 +58,7 @@ public class TestBase {
 		{
 			System.setProperty("webdriver.ie.driver", "D:/Preetha/Eclipse/Browsers/");
 			driver = new InternetExplorerDriver();
+			
 		}
 
 		e_driver = new EventFiringWebDriver(driver);

@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-25T18:02:25 AEST" name="Free CRM automation test suit" finished-at="2020-06-25T18:02:58 AEST" duration-ms="33126">
+  <suite started-at="2020-07-02T12:32:03 AEST" name="Free CRM automation test suit" finished-at="2020-07-02T12:32:41 AEST" duration-ms="37535">
     <groups>
     </groups>
-    <test started-at="2020-06-25T18:02:25 AEST" name="Free CRM Sanity TC" finished-at="2020-06-25T18:02:58 AEST" duration-ms="33126">
+    <test started-at="2020-07-02T12:32:03 AEST" name="Free CRM Sanity TC" finished-at="2020-07-02T12:32:41 AEST" duration-ms="37535">
       <class name="com.crm.qa.testcases.LoginPageTestCase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:25 AEST" name="setUp" finished-at="2020-06-25T18:02:34 AEST" duration-ms="8898" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:03 AEST" name="setUp" finished-at="2020-07-02T12:32:12 AEST" duration-ms="9197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:34 AEST" name="loginPageTitleTest" finished-at="2020-06-25T18:02:34 AEST" duration-ms="59" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:12 AEST" name="loginPageTitleTest" finished-at="2020-07-02T12:32:12 AEST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:34 AEST" name="teardown" finished-at="2020-06-25T18:02:34 AEST" duration-ms="759" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:12 AEST" name="teardown" finished-at="2020-07-02T12:32:13 AEST" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:34 AEST" name="setUp" finished-at="2020-06-25T18:02:43 AEST" duration-ms="8382" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:13 AEST" name="setUp" finished-at="2020-07-02T12:32:23 AEST" duration-ms="10128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:43 AEST" name="crmLogoImageTest" finished-at="2020-06-25T18:02:43 AEST" duration-ms="114" status="PASS">
+        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:23 AEST" name="crmLogoImageTest" finished-at="2020-07-02T12:32:24 AEST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:43 AEST" name="teardown" finished-at="2020-06-25T18:02:44 AEST" duration-ms="744" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:24 AEST" name="teardown" finished-at="2020-07-02T12:32:24 AEST" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:44 AEST" name="setUp" finished-at="2020-06-25T18:02:52 AEST" duration-ms="8521" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:24 AEST" name="setUp" finished-at="2020-07-02T12:32:34 AEST" duration-ms="9578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:52 AEST" name="loginTest" finished-at="2020-06-25T18:02:57 AEST" duration-ms="4828" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:34 AEST" name="loginTest" finished-at="2020-07-02T12:32:40 AEST" duration-ms="5905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-06-25T18:02:57 AEST" name="teardown" finished-at="2020-06-25T18:02:58 AEST" duration-ms="762" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTestCase@490caf5f]" started-at="2020-07-02T12:32:40 AEST" name="teardown" finished-at="2020-07-02T12:32:41 AEST" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
