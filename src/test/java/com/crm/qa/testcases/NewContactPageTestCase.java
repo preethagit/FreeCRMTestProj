@@ -53,11 +53,6 @@ public class NewContactPageTestCase extends TestBase{
 		
 	}
 	
-	@AfterMethod
-	public void tearDown()
-	{
-		driver.quit();
-	}
 	
-	
+
 }
