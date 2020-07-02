@@ -3,7 +3,6 @@ package com.crm.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
@@ -34,13 +33,7 @@ public class ContactsPageTestCase extends TestBase{
 		contactsPage = homePage.clickContactsLink();
 	}
 	
-
-	@DataProvider
-	public Object[][] getContactsTestData()
-	{
-		Object data[][] = TestUtil.getTestData("Contacts");
-		return data;
-	}	
+	
 	@Test(priority=1)
 	public void verifyContactsPageLabelTestcase()
 	{
@@ -50,25 +43,23 @@ public class ContactsPageTestCase extends TestBase{
 	@Test(priority=2)
 	public void selectContactsByNameTestCase()
 	{
+		contactsPage.enterName("abhi");
+		contactsPage.clickSearch();
 		contactsPage.selectContactByName("abhi sahu");
 	}
 	
 	@Test(priority=3)
 	public void selectMultipleContactsByNameTestCase()
 	{
+		contactsPage.enterName("Aashik");
+		contactsPage.clickSearch();
 		contactsPage.selectContactByName("Aashik rajput");
+		contactsPage.enterName("Aashiq");
+		contactsPage.clickSearch();		
 		contactsPage.selectContactByName("Aashiq Limbu");
+	    
 	}
 
-	
-	@Test(priority=4,dataProvider="getContactsTestData")
-	public void validateCreateNewContact(String title,String firstNM, String LastNM, String company)
-	{
-		homePage.clickNewContactMenu();
-		contactsPage.createNewContact(title, firstNM,LastNM, company);
-		
-		
-	}
 	
 	
 	@AfterMethod
