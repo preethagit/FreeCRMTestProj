@@ -120,7 +120,7 @@
           <version>2.22.1</version>
           	<configuration>
 		        <suiteXmlFiles>
-		            <suiteXmlFile>D:\Preetha\Eclipse\FreeCRMTestProject\src\main\Report\SanityTestFile.xml</suiteXmlFile>
+		            <suiteXmlFile>${suiteFile}</suiteXmlFile>
 		        </suiteXmlFiles>
     		</configuration>
           
