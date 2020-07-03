@@ -23,6 +23,7 @@ public class ContactsPage extends TestBase{
 	@FindBy(name="cs_submit")
 	WebElement searchButton;
 	
+	//Initialise the web elements
 	public ContactsPage(){
 	PageFactory.initElements(driver, this);				
 	}
