@@ -12,6 +12,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.crm.qa.base.TestBase;
 
@@ -25,6 +27,13 @@ public class TestUtil extends TestBase{
 	public void switchToFrame()
 	{
 		driver.switchTo().frame("mainpanel");
+	}
+	
+	//function to move to or scroll to particular web element
+	public void scrollToElement(WebElement ele)
+	{
+		Actions action = new Actions(driver);
+		action.moveToElement(ele);
 	}
 	
 	

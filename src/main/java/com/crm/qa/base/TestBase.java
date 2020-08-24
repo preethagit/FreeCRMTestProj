@@ -26,7 +26,7 @@ public class TestBase {
 	{
 		try	{
 			prop = new Properties();
-			FileInputStream file = new FileInputStream("D:/Preetha/Eclipse/FreeCRMProject"+
+			FileInputStream file = new FileInputStream("D:/Preetha/Eclipse/FreeCRMTestProject"+
 			"/src/main/java/com/crm/qa/config/config.properties");
 			prop.load(file);
 		}
@@ -66,7 +66,7 @@ public class TestBase {
 		e_driver.register(listner);
 		driver = e_driver;
 		
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); //Maximize the window before test case execution
 		driver.manage().deleteAllCookies();  ///delete all the cookies
 		driver.manage().timeouts().pageLoadTimeout(TimeoutVal.page_load_timeout, TimeUnit.SECONDS); // Page load timeout
 		driver.manage().timeouts().implicitlyWait(TimeoutVal.implicit_wait_time, TimeUnit.SECONDS); //implicit wait
