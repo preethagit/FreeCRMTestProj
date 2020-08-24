@@ -1,6 +1,6 @@
 # FreeCRMTestProj
-Sample project to demonstrate 
-selenium POM and data driven frame work
-integrated to jenkins
+Sample project to demonstrate TDD framework using TestNG.
+Used selenium POM and data driven frame work.
+Integrated to jenkins for continous intergration.
 
 
